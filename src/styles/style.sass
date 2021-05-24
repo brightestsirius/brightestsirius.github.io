@@ -1,0 +1,28 @@
+@import "partials/_variables.sass"
+
+body
+	font-family: 'Raleway', sans-serif
+	font-size: 10px
+
+.pacifico
+	font-family: 'Pacifico', sans-serif
+
+.ostrich
+	font-family: 'Ostrich', sans-serif
+
+input
+	&::placeholder
+		color: $color--main
+		transition: 0.2s
+	&:focus
+		&::placeholder
+			color: transparent
+
+h1
+	color: $color--main
+
+.owl-carousel
+	margin: 20px
+	.owl-item
+		img
+			width: 50px
